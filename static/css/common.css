@@ -1,0 +1,4 @@
+*{margin: 0; padding: 0; border: 0}
+ul{list-style: none;}
+ul li{list-style: none;}
+.clearfix{overflow:hidden;_zoom:1;}

@@ -1,0 +1,47 @@
+
+.tableList{
+    width: 100%;
+    border-left: 1px solid #ededed;
+    border-right:1px solid #ededed;
+}
+.tableList li {
+    font-size: 12px;
+    color:#333;
+    min-height: 30px;
+    width: 100%;
+    position:relative;
+    display: flex;
+    padding: 5px 0;
+    border-bottom:1px solid #ededed;
+    box-sizing: border-box;
+}
+.tableList li:first-child{
+    background:rgb(78, 132, 233);
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+}
+.tableList li.listLine:hover{
+    background:#fafafa;
+}
+.tableList li span{
+    flex:1;
+    text-align:center;
+}
+.tableList li span img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.tableList li span i{
+    font-style:normal;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagin {
+    margin-top: 20px;
+    text-align: right;
+}
